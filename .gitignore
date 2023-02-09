@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+yarn.lock
+target/
+node/
+.idea/
+sonar-qiskit-plugin.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
