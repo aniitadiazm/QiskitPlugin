@@ -43,7 +43,7 @@ public class AuxiliaryQubits implements Sensor {
                 String content = f.contents();
                 String[] lines = content.split("\\R");
                 for (String line : lines) {
-                    if (line.contains("QuantumRegister(") && (line.contains("ancilla") || line.contains("Ancilla"))) {
+                    if (line.contains("QuantumRegister(") && (line.contains("ancilla") || line.contains("Ancilla") || line.contains("anc") || line.contains("Anc"))) {
                         build_cubits = line.replace(" ", "");
                         parts = build_cubits.split("\\(");
                         part1 = parts[1];

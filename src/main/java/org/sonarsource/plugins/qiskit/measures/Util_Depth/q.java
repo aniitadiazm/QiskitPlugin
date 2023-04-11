@@ -9,11 +9,19 @@ public class q {
 
         String ope, part0, part1;
         String[] parts, parts2;
-        int qubit=0, max = 0;
+        int qubit=0;
 
         parts = linea.split("\\(");
         part0 = parts[1];
-        if(part0.contains("[") && part0.contains(",")) {
+        if(part0.contains("[") && (part0.contains("ancilla") || part0.contains("Ancilla") || part0.contains("anc") || part0.contains("Anc"))) {
+            parts2 = part0.split("\\[");
+            part1 = parts2[1];
+            parts2 = part1.split("\\]");
+            ope = parts2[0];
+            qubit = Integer.valueOf(ope);
+            depths[depths.length - 1 - qubit] = depths[depths.length - 1 - qubit] + 1;
+        }
+        else if(part0.contains("[") && part0.contains(",")) {
             parts = part0.split("\\,");
             for(int i=0; i<parts.length; i++) {
                 if(parts[i].contains("[")){

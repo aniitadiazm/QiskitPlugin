@@ -53,7 +53,7 @@ public class QiskitMetrics implements Metrics {
 		.setDescription("Conditional instructions")
 		.setDirection(Metric.DIRECTION_NONE)
 		.setQualitative(false)
-		.setDomain("Conditional circuit instructions")
+		.setDomain("Conditional instructions")
 		.create();
 
 	public static final Metric<Integer> QCC =
@@ -61,7 +61,7 @@ public class QiskitMetrics implements Metrics {
 		.setDescription("Quantum cyclomatic complexity")
 		.setDirection(Metric.DIRECTION_NONE)
 		.setQualitative(false)
-		.setDomain("Quantum cyclomatic circuit complexity")
+		.setDomain("Quantum cyclomatic complexity")
 		.create();
 
 	public static final Metric<Integer> MEASURE =
@@ -69,7 +69,7 @@ public class QiskitMetrics implements Metrics {
 		.setDescription("Measure operations")
 		.setDirection(Metric.DIRECTION_NONE)
 		.setQualitative(false)
-		.setDomain("Circuit measure operations")
+		.setDomain("Measure operations")
 		.create();
 
 	public static final Metric<Integer> INITRESET =
