@@ -60,8 +60,15 @@ public class q {
             if(ope.matches("[+-]?\\d*(\\.\\d+)?")){
                 qubit = Integer.valueOf(ope);
             } else {
+                if(ope.contains("[")){
+                    parts2 = ope.split("\\[");
+                    part1 = parts2[1];
+                    parts2 = part1.split("\\]");
+                    qubit = Integer.valueOf(parts2[0]);
+                } else {
                 ope = buscar_qubits.qubits(lines, ope);
                 qubit = Integer.valueOf(ope);
+                }
             }
             for(int i=0; i<qubit; i++) {
                 depths[i] = depths[i] + 1;

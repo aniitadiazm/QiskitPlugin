@@ -36,7 +36,8 @@ public class InitResetOperations implements Sensor {
 
     public static int calculate(InputFile f, SensorContext context) throws IOException {
         int totalInitReset = 0;
-        if (f.isFile()) {
+        String minusF = f.file().toPath().getFileName().toString().toLowerCase();
+        if (f.isFile() && (minusF.contains("qiskit") || minusF.contains("quirk"))) {
         	try {
             		String content = f.contents();
             		String[] lines = content.split("\\R");

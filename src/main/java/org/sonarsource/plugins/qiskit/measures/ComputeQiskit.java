@@ -82,6 +82,7 @@ public class ComputeQiskit implements MeasureComputer {
             sum += child.getIntValue();
             }
             context.addMeasure(QiskitMetrics.AUXQUBITS.key(), sum);
+
         }
     }
 }

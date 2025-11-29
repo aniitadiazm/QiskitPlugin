@@ -38,7 +38,8 @@ public class AuxiliaryQubits implements Sensor {
         int totalAUX = 0, intcubits = 0;
         String[] parts, parts2;
         String cubits, part1, build_cubits;
-        if (f.isFile()) {
+        String minusF = f.file().toPath().getFileName().toString().toLowerCase();
+        if (f.isFile() && (minusF.contains("qiskit") || minusF.contains("quirk"))) {
             try {
                 String content = f.contents();
                 String[] lines = content.split("\\R");

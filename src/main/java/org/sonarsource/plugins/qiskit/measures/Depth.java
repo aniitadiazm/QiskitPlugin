@@ -65,8 +65,8 @@ public class Depth implements Sensor {
     public int[] contar(int[] depths, int ancilla, InputFile f, SensorContext context) {
         String linea, linea1;
         String[] parts;
-        
-        if (f.isFile()) {
+        String minusF = f.file().toPath().getFileName().toString().toLowerCase();
+        if (f.isFile() && (minusF.contains("qiskit") || minusF.contains("quirk"))) {
             try {
                 String content = f.contents();
                 String[] lines = content.split("\\R");

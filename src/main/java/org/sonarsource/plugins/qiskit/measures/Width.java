@@ -38,7 +38,8 @@ public class Width implements Sensor {
         int totalqubits = 0, intqubits = 0;
         String[] parts, parts2;
         String qubits, part1, build_qubits;
-        if (f.isFile()) {
+        String minusF = f.file().toPath().getFileName().toString().toLowerCase();
+        if (f.isFile() && (minusF.contains("qiskit") || minusF.contains("quirk"))) {
             try {
                 String content = f.contents();
                 String[] lines = content.split("\\R");
