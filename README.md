@@ -33,8 +33,6 @@ The following classes compute Qiskit-related measurements:
 - UtilDepth.java  
 - Width.java  
 
----
-
 ### 🔹 Frontend (JavaScript)
 
 Located under:
