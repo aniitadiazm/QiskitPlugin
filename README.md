@@ -49,7 +49,6 @@ Contains JavaScript resources used for extending or displaying UI components ins
 
 Compile the plugin using Maven:
 
-```bash
 mvn clean package
 
 ---
@@ -60,12 +59,10 @@ Once the JAR is generated, install the plugin in your SonarQube instance:
 
 1. Build the plugin:
 
-```bash
 mvn clean package
 
 2. Copy the generated file into the SonarQube plugins directory:
 
-```bash
 $SONARQUBE_HOME/extensions/plugins/
 
 3. Restart SonarQube so the plugin is loaded.
