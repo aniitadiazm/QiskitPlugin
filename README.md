@@ -66,3 +66,10 @@ Once the JAR is generated, install the plugin in your SonarQube instance:
 3. Restart SonarQube so the plugin is loaded.
 
 After restarting, the plugin will appear inside the SonarQube environment.
+
+---
+
+## 📖 License
+
+This project is licensed under the European Union Public Licence, version 1.2 (EUPL-1.2).
+See the LICENSE file for details.
