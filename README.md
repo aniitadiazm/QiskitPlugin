@@ -19,18 +19,15 @@ Located under:
 #### Metric implementations (`measures/`)
 The following classes compute Qiskit-related measurements:
 
-- AuxiliaryQubits.java  
-- ComputeQiskit.java  
+- AuxiliaryQubits.java
 - ConditionalInstructions.java  
 - Depth.java  
 - HighComplexityGates.java  
 - InitResetOperations.java  
 - LowComplexityGates.java  
 - MeasureOperations.java  
-- MediumComplexityGates.java  
-- QiskitMetrics.java  
-- QuantumCyclomaticComplexity.java  
-- UtilDepth.java  
+- MediumComplexityGates.java
+- QuantumCyclomaticComplexity.java
 - Width.java  
 
 ### 🔹 Frontend (JavaScript)
