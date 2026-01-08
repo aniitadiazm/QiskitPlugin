@@ -1,165 +1,247 @@
-GNU LESSER GENERAL PUBLIC LICENSE
-Version 3, 29 June 2007
+EUROPEAN UNION PUBLIC LICENCE v. 1.2
+EUPL © the European Union 2007, 2016
 
-Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
-Everyone is permitted to copy and distribute verbatim copies
-of this license document, but changing it is not allowed.
+Copyright (c) 2025 Ana Díaz-Muñoz
+Copyright (c) 2025 AQCLab Software Quality
+
+Licensed under the EUPL, Version 1.2 (the "Licence");
+You may not use this work except in compliance with the Licence.
+You may obtain a copy of the Licence at:
+
+https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the Licence is distributed on an "AS IS" basis,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the Licence for the specific language governing permissions and
+limitations under the Licence.
 
 
-This version of the GNU Lesser General Public License incorporates
-the terms and conditions of version 3 of the GNU General Public
-License, supplemented by the additional permissions listed below.
+EUROPEAN UNION PUBLIC LICENCE v. 1.2
 
-0. Additional Definitions.
+Preamble
 
-As used herein, "this License" refers to version 3 of the GNU Lesser
-General Public License, and the "GNU GPL" refers to version 3 of the GNU
-General Public License.
+The European Union Public Licence (the ‘EUPL’) applies to the Work (as defined
+below) which is provided under the terms of this Licence. Any use of the Work,
+other than as authorised under this Licence, is prohibited (to the extent such
+use is covered by a right of the copyright holder of the Work).
 
-"The Library" refers to a covered work governed by this License,
-other than an Application or a Combined Work as defined below.
+The original Work is provided under the terms of this Licence when the Licensor
+(as defined below) has placed the following notice immediately following the
+copyright notice for the Work:
 
-An "Application" is any work that makes use of an interface provided
-by the Library, but which is not otherwise based on the Library.
-Defining a subclass of a class defined by the Library is deemed a mode
-of using an interface provided by the Library.
+Licensed under the EUPL
 
-A "Combined Work" is a work produced by combining or linking an
-Application with the Library.  The particular version of the Library
-with which the Combined Work was made is also called the "Linked
-Version".
+or has expressed by any other means his willingness to license under the EUPL.
 
-The "Minimal Corresponding Source" for a Combined Work means the
-Corresponding Source for the Combined Work, excluding any source code
-for portions of the Combined Work that, considered in isolation, are
-based on the Application, and not on the Linked Version.
+Article 1 – Definitions
 
-The "Corresponding Application Code" for a Combined Work means the
-object code and/or source code for the Application, including any data
-and utility programs needed for reproducing the Combined Work from the
-Application, but excluding the System Libraries of the Combined Work.
+For the purpose of this Licence, the following terms shall have the following
+meaning:
 
-1. Exception to Section 3 of the GNU GPL.
+- ‘The Licence’: this Licence.
+- ‘The Original Work’: the work or software distributed or communicated by the
+  Licensor under this Licence, available as Source Code and also as Executable
+  Code as the case may be.
+- ‘Derivative Works’: the works or software that could be created by the
+  Licensee, based upon the Original Work or modifications thereof.
+- ‘The Work’: the Original Work or its Derivative Works.
+- ‘Source Code’: the human-readable form of the Work which is the most suitable
+  for studying and modifying.
+- ‘Executable Code’: any code which has generally been compiled and which is
+  meant to be interpreted by a computer as a program.
+- ‘The Licensor’: the natural or legal person that distributes or communicates
+  the Work under the Licence.
+- ‘Contributor(s)’: any natural or legal person who modifies the Work under the
+  Licence, or otherwise contributes to the creation of a Derivative Work.
+- ‘The Licensee’ or ‘You’: any natural or legal person who makes any usage of the
+  Work under the terms of the Licence.
+- ‘Distribution’ or ‘Communication’: any act of selling, giving, lending,
+  renting, distributing, communicating, transmitting, or otherwise making
+  available, online or offline, copies of the Work or providing access to its
+  essential functionalities at the disposal of any other natural or legal
+  person.
 
-You may convey a covered work under sections 3 and 4 of this License
-without being bound by section 3 of the GNU GPL.
+Article 2 – Scope of the rights granted by the Licence
 
-2. Conveying Modified Versions.
+The Licensor hereby grants You a worldwide, royalty-free, non-exclusive,
+sublicensable licence to do the following, for the duration of copyright vested
+in the Original Work:
 
-If you modify a copy of the Library, and, in your modifications, a
-facility refers to a function or data to be supplied by an Application
-that uses the facility (other than as an argument passed when the
-facility is invoked), then you may convey a copy of the modified
-version:
+- use the Work in any circumstance and for all usage,
+- reproduce the Work,
+- modify the Work, and make Derivative Works based upon the Work,
+- communicate to the public, including the right to make available or display
+  the Work or copies thereof to the public and perform publicly, as the case may
+  be, the Work,
+- distribute the Work or copies thereof,
+- lend and rent the Work or copies thereof,
+- sublicense rights in the Work or copies thereof.
 
-a) under this License, provided that you make a good faith effort to
-ensure that, in the event an Application does not supply the
-function or data, the facility still operates, and performs
-whatever part of its purpose remains meaningful, or
+Those rights can be exercised on any media, supports and formats, whether now
+known or later invented, as far as the applicable law permits so.
 
-b) under the GNU GPL, with none of the additional permissions of
-this License applicable to that copy.
+Article 3 – Communication of the Source Code
 
-3. Object Code Incorporating Material from Library Header Files.
+The Licensor may provide the Work either in its Source Code form, or as
+Executable Code. If the Work is provided as Executable Code, the Licensor
+provides in addition a machine-readable copy of the Source Code of the Work
+along with each copy of the Work that the Licensor distributes or indicates, in
+a notice following the copyright notice attached to the Work, a repository where
+the Source Code is easily and freely accessible for as long as the Licensor
+continues to distribute or communicate the Work.
 
-The object code form of an Application may incorporate material from
-a header file that is part of the Library.  You may convey such object
-code under terms of your choice, provided that, if the incorporated
-material is not limited to numerical parameters, data structure
-layouts and accessors, or small macros, inline functions and templates
-(ten or fewer lines in length), you do both of the following:
+Article 4 – Limitations on copyright
 
-a) Give prominent notice with each copy of the object code that the
-Library is used in it and that the Library and its use are
-covered by this License.
+Nothing in this Licence is intended to deprive the Licensee of the benefits from
+any exception or limitation to the exclusive rights of the rights owners in the
+Work, of the exhaustion of those rights, or of other applicable limitations
+thereto.
 
-b) Accompany the object code with a copy of the GNU GPL and this license
-document.
+Article 5 – Obligations of the Licensee
 
-4. Combined Works.
+The grant of the rights mentioned above is subject to some restrictions and
+obligations imposed on the Licensee. These obligations are the following:
 
-You may convey a Combined Work under terms of your choice that,
-taken together, effectively do not restrict modification of the
-portions of the Library contained in the Combined Work and reverse
-engineering for debugging such modifications, if you also do each of
-the following:
+Attribution right:
+The Licensee shall keep intact all copyright, patent or trademarks notices and
+all notices that refer to the Licence and to the disclaimer of warranties. The
+Licensee must include a copy of such notices and a copy of the Licence with every
+copy of the Work he/she distributes or communicates. The Licensee must cause any
+Derivative Work to carry prominent notices stating that the Work has been
+modified and the date of modification.
 
-a) Give prominent notice with each copy of the Combined Work that
-the Library is used in it and that the Library and its use are
-covered by this License.
+Copyleft clause:
+If the Licensee distributes or communicates copies of the Original Works or
+Derivative Works, this Distribution or Communication will be done under the
+terms of this Licence or of a later version of this Licence, unless the Original
+Work is expressly distributed only under this version of the Licence.
 
-b) Accompany the Combined Work with a copy of the GNU GPL and this license
-document.
+Compatibility clause:
+If the Licensee distributes or communicates Derivative Works or copies thereof
+based upon both the Work and another work licensed under a Compatible Licence,
+this Distribution or Communication can be done under the terms of this
+Compatible Licence. For the list of Compatible Licences, see Appendix.
 
-c) For a Combined Work that displays copyright notices during
-execution, include the copyright notice for the Library among
-these notices, as well as a reference directing the user to the
-copies of the GNU GPL and this license document.
+Provision of Source Code:
+When distributing or communicating copies of the Work, the Licensee must provide
+a machine-readable copy of the Source Code or indicate a repository where this
+Source Code will be easily and freely available for as long as the Licensee
+continues to distribute or communicate the Work.
 
-d) Do one of the following:
+Legal Protection:
+This Licence does not grant permission to use the trade names, trademarks, service
+marks, or names of the Licensor, except as required for reasonable and customary
+use in describing the origin of the Work.
 
-0) Convey the Minimal Corresponding Source under the terms of this
-License, and the Corresponding Application Code in a form
-suitable for, and under terms that permit, the user to
-recombine or relink the Application with a modified version of
-the Linked Version to produce a modified Combined Work, in the
-manner specified by section 6 of the GNU GPL for conveying
-Corresponding Source.
+Article 6 – Chain of Authorship
 
-1) Use a suitable shared library mechanism for linking with the
-Library.  A suitable mechanism is one that (a) uses at run time
-a copy of the Library already present on the user's computer
-system, and (b) will operate properly with a modified version
-of the Library that is interface-compatible with the Linked
-Version.
+The original Licensor warrants that the copyright in the Original Work granted
+hereunder is owned by the Licensor or licensed to the Licensor and that the
+Licensor has the power and authority to grant the Licence.
 
-e) Provide Installation Information, but only if you would otherwise
-be required to provide such information under section 6 of the
-GNU GPL, and only to the extent that such information is
-necessary to install and execute a modified version of the
-Combined Work produced by recombining or relinking the
-Application with a modified version of the Linked Version. (If
-you use option 4d0, the Installation Information must accompany
-the Minimal Corresponding Source and Corresponding Application
-Code. If you use option 4d1, you must provide the Installation
-Information in the manner specified by section 6 of the GNU GPL
-for conveying Corresponding Source.)
+Each Contributor warrants that the copyright in the modifications he/she brings
+to the Work are owned by the Contributor or licensed to the Contributor and that
+the Contributor has the power and authority to grant the Licence.
 
-5. Combined Libraries.
+Article 7 – Disclaimer of Warranty
 
-You may place library facilities that are a work based on the
-Library side by side in a single library together with other library
-facilities that are not Applications and are not covered by this
-License, and convey such a combined library under terms of your
-choice, if you do both of the following:
+The Work is a work in progress, which is continuously improved by numerous
+contributors. It is not a finished work and may therefore contain defects or
+“bugs” inherent to this type of development.
 
-a) Accompany the combined library with a copy of the same work based
-on the Library, uncombined with any other library facilities,
-conveyed under the terms of this License.
+For the above reason, the Work is provided under the Licence on an “as is” basis
+and without warranties of any kind concerning the Work, including without
+limitation merchantability, fitness for a particular purpose, absence of defects
+or errors, accuracy, non-infringement of intellectual property rights other than
+copyright as stated in Article 6.
 
-b) Give prominent notice with the combined library that part of it
-is a work based on the Library, and explaining where to find the
-accompanying uncombined form of the same work.
+This disclaimer of warranty is an essential part of the Licence and a condition
+for the grant of any rights to the Work.
 
-6. Revised Versions of the GNU Lesser General Public License.
+Article 8 – Disclaimer of Liability
 
-The Free Software Foundation may publish revised and/or new versions
-of the GNU Lesser General Public License from time to time. Such new
-versions will be similar in spirit to the present version, but may
-differ in detail to address new problems or concerns.
+Except in the cases of wilful misconduct or damages directly caused to natural
+persons, the Licensor will in no event be liable for any direct or indirect,
+material or moral, damages of any kind, arising out of the Licence or of the use
+of the Work, including without limitation, damages for loss of goodwill, work
+stoppage, computer failure or malfunction, loss of data or any commercial damage,
+even if the Licensor has been advised of the possibility of such damage.
 
-Each version is given a distinguishing version number. If the
-Library as you received it specifies that a certain numbered version
-of the GNU Lesser General Public License "or any later version"
-applies to it, you have the option of following the terms and
-conditions either of that published version or of any later version
-published by the Free Software Foundation. If the Library as you
-received it does not specify a version number of the GNU Lesser
-General Public License, you may choose any version of the GNU Lesser
-General Public License ever published by the Free Software Foundation.
+Article 9 – Additional agreements
 
-If the Library as you received it specifies that a proxy can decide
-whether future versions of the GNU Lesser General Public License shall
-apply, that proxy's public statement of acceptance of any version is
-permanent authorization for you to choose that version for the
-Library.
+While distributing the Original Work or Derivative Works, You may choose to
+conclude an additional agreement, defining obligations or services consistent
+with this Licence. However, if accepting obligations, You may act only on Your
+own behalf and on Your sole responsibility, not on behalf of the original
+Licensor or any other Contributor.
+
+Article 10 – Acceptance of the Licence
+
+The provisions of this Licence can be accepted by clicking on an icon “I agree”
+or by any other similar means, in accordance with the rules of applicable law.
+Clicking on such an icon indicates your clear and irrevocable acceptance of this
+Licence and all of its terms and conditions.
+
+Similarly, you irrevocably accept this Licence and all of its terms and
+conditions by exercising any rights granted to You by this Licence, such as the
+use of the Work, the creation by You of a Derivative Work or the Distribution or
+Communication by You of the Work or copies thereof.
+
+Article 11 – Information to the public
+
+In case of any Distribution or Communication of the Work, the Licensee shall
+provide to the public, where reasonably practicable, the means to access the
+Source Code of the Work.
+
+Article 12 – Termination of the Licence
+
+The Licence and the rights granted hereunder will terminate automatically upon
+any breach by the Licensee of the terms of the Licence. Such termination will not
+terminate the licences of any person who has received the Work from the Licensee
+under the Licence, provided such persons remain in full compliance with the
+Licence.
+
+Article 13 – Miscellaneous
+
+Without prejudice to Article 9 above, the Licence represents the complete
+agreement between the Parties as to the Work.
+
+If any provision of the Licence is invalid or unenforceable under applicable law,
+this shall not affect the validity or enforceability of the Licence as a whole.
+Such provision will be interpreted and/or reformed so as to achieve its intended
+purpose to the greatest extent possible under applicable law.
+
+Article 14 – Jurisdiction
+
+Any litigation resulting from the interpretation of this Licence, arising
+between the European Union institutions, bodies, offices or agencies, as a
+Licensor, and any Licensee, will be subject to the jurisdiction of the Court of
+Justice of the European Union, as laid down in Article 272 of the Treaty on the
+Functioning of the European Union.
+
+Any litigation arising between Parties, other than the European Union
+institutions, bodies, offices or agencies, shall be subject to the exclusive
+jurisdiction of the competent court where the Licensor resides or conducts its
+primary business.
+
+Article 15 – Applicable Law
+
+This Licence shall be governed by the law of the European Union where the
+Licensor is a European Union institution, body, office or agency.
+
+This Licence shall be governed by the law of the country where the Licensor
+resides or conducts its primary business.
+
+Appendix – Compatible Licences
+
+The EUPL is compatible with the following licences:
+
+- GNU General Public License (GPL) v2, v3
+- GNU Affero General Public License (AGPL) v3
+- GNU Lesser General Public License (LGPL) v2.1, v3
+- Mozilla Public License (MPL) v2
+- Eclipse Public License (EPL) v1.0
+- CeCILL v2.0, v2.1
+- Open Software License (OSL) v2.1, v3.0
+- European Union Public Licence (EUPL) v1.1, v1.2
