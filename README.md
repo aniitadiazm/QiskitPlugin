@@ -66,6 +66,21 @@ After restarting, the plugin will appear inside the SonarQube environment.
 
 ---
 
+## ✔ Validation
+
+The repository includes a validation suite composed of representative quantum circuits implemented in Qiskit.
+
+To reproduce the validation:
+
+1. Clone the repository
+2. Install SonarQube and the SonarQiskit plugin
+3. Run the analysis on the circuits located in the `/examples` directory
+4. Compare the computed metrics with the expected values provided in `/validation/expected_metrics.csv`
+
+These circuits correspond to well-known quantum algorithms such as Bernstein–Vazirani, Deutsch–Jozsa, Grover, Shor, and Quantum Phase Estimation.
+
+---
+
 ## 📖 License
 
 This project is licensed under the European Union Public Licence, version 1.2 (EUPL-1.2).
