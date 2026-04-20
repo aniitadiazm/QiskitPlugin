@@ -1,9 +1,0 @@
-Algorithm;Environment;Width;Depth;High Complexity Gates;Medium Complexity Gates;Low Complexity Gates;Quantum Cyclomatic Complexity;Measure Operations;Conditional Instructions;Initialize and Reset Operations;Auxiliary Qubits
-Bernstein-Vazirani;Qiskit;4;5;0;3;8;7;1;0;0;1
-Deutsch-Jozsa;Qiskit;4;8;0;3;12;7;3;0;0;0
-Grover;Qiskit;2;8;0;1;7;3;1;0;0;0
-Phase Estimation;Qiskit;4;15;0;11;7;26;2;0;0;0
-Shor;Qiskit;4;11;0;9;5;19;4;0;4;0
-Simon;Qiskit;6;6;0;5;6;11;3;0;0;0
-Teleportation;Qiskit;3;7;0;2;8;6;2;2;0;0
-TSP;Qiskit;5;5;0;2;4;5;3;0;0;0
